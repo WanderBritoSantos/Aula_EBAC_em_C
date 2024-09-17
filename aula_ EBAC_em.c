@@ -138,8 +138,7 @@
         printf(".....Selecione uma opção desejada:\n\n");
        printf("\t1 - Registrar aluno............\n");
        printf("\t2 - Consultar aluno............\n");
-       printf("\t3 - Deletar aluno..............\n\n"); 
-       printf("\tDigite a opção desejada 1, 2 ou 3!");  /*   printf("\tdigite a opção desejada: 1, 2, 3 ou aperte 0 para sair\n\n");*/
+       printf("\t3 - Deletar aluno..............\n\n");        printf("\tdigite a opção desejada: 1, 2, 3 ou aperte 0 para sair\n\n");
        printf("\tOpção: ");
        
        scanf("%d",&opcao);
@@ -158,9 +157,9 @@
        case 3:
     	    deletar_aluno();
        break;
-    /*   case 0:	
+       case 0:	
             sair();
-        break;*/
+        break;
        default:
               printf(".........%d",opcao);
                
